@@ -118,18 +118,18 @@ function Home() {
       {/* Stats Section */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 px-8 pb-20">
         <div className="bg-gray-800 p-6 rounded-xl text-center">
-          <h3 className="text-3xl font-bold text-cyan-400">10+</h3>
-          <p>Projects Completed</p>
+          <h3 className="text-3xl font-bold text-cyan-400">B.Tech (CSE)</h3>
+          <p>Graduate</p>
         </div>
 
         <div className="bg-gray-800 p-6 rounded-xl text-center">
-          <h3 className="text-3xl font-bold text-cyan-400">2+</h3>
-          <p>Years Learning</p>
+          <h3 className="text-3xl font-bold text-cyan-400">7+</h3>
+          <p>Technologies Explored</p>
         </div>
 
         <div className="bg-gray-800 p-6 rounded-xl text-center">
-          <h3 className="text-3xl font-bold text-cyan-400">100%</h3>
-          <p>Passion for Coding</p>
+          <h3 className="text-3xl font-bold text-cyan-400">Continuous</h3>
+          <p>Learing and & Improving</p>
         </div>
       </section>
     </div>
