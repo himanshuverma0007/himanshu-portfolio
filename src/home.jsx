@@ -21,8 +21,8 @@ function Home() {
 <ul className="hidden md:flex gap-8">
   <li><a href="#home" className="hover:text-cyan-400">Home</a></li>
   <li><a href="#about" className="hover:text-cyan-400">About</a></li>
-  <li><a href="#skills" className="hover:text-cyan-400">Skills</a></li>
-  <li><a href="#projects" className="hover:text-cyan-400">Projects</a></li>
+  <li><a href="#Skills" className="hover:text-cyan-400">Skills</a></li>
+  <li><a href="#Projects" className="hover:text-cyan-400">Projects</a></li>
   <li><a href="#contact" className="hover:text-cyan-400">Contact</a></li>
 </ul>
   {/* Mobile Menu Button */}
