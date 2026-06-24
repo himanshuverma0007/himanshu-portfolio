@@ -7,7 +7,7 @@ const [result, setResult] = useState("");
 const handleSubmit = async (event) => {
 event.preventDefault();
 
-```
+
 setResult("Sending...");
 
 const formData = new FormData(event.target);
@@ -34,7 +34,7 @@ if (data.success) {
   setResult("❌ Failed to send message.");
   console.log(data);
 }
-```
+
 
 };
 
