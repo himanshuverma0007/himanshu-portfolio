@@ -94,7 +94,7 @@ function Home() {
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
            <a
-  href="/Himanshu_Verma_resume_new.pdf"
+  href="/Himanshu_Verma_Resume_MS.pdf"
   download
   className="border border-cyan-400 px-6 py-3 rounded-lg hover:bg-cyan-400 hover:text-black transition text-center"
 >
