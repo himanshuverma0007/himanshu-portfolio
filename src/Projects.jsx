@@ -36,7 +36,7 @@ const Projects = () => {
     </h3>
 
     <p className="text-gray-300 leading-7 mb-6">
-      Designed and developed a full-stack e-commerce bookstore with secure
+      Designed and developed a full-stack bookstore with secure
       user authentication, role-based admin controls, and comprehensive
       book management features. Implemented functionalities including
       shopping cart, favourites, order processing, and user order history.
