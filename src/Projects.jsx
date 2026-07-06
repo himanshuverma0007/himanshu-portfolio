@@ -190,6 +190,63 @@ const Projects = () => {
 
 </div>
 </div>
+{/* Course Builder Project */}
+<div className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300 mt-10">
+
+  <img
+    src="/course-builder.png"
+    alt="Course Builder"
+    className="w-full h-[350px] object-cover"
+  />
+
+  <div className="p-8">
+    <h3 className="text-3xl font-bold text-cyan-400 mb-4">
+      Course Builder
+    </h3>
+
+    <p className="text-gray-300 leading-7 mb-6">
+      Developed a drag-and-drop course creation platform that enables
+      instructors to build and manage courses effortlessly. Implemented
+      interactive content blocks such as text, video, quiz, and assignments,
+      allowing users to organize modules, reorder content dynamically, and
+      edit course materials in real time. Built with a fully responsive
+      design, including mobile-optimized bottom-sheet drawers, localStorage
+      persistence for data retention, and JSON export functionality for
+      seamless course sharing and backup.
+    </p>
+
+    <div className="flex flex-wrap gap-3 mb-6">
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        React.js
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        @dnd-kit
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        JavaScript
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        LocalStorage
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        Responsive Design
+      </span>
+    </div>
+
+    <a
+      href="https://course-builder-plum.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold transition"
+    >
+      View Project
+    </a>
+  </div>
+</div>
         <div className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300">
 
           {/* Project Image */}
