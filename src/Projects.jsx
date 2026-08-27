@@ -189,6 +189,7 @@ const Projects = () => {
   </div>
 
 </div>
+
 </div>
 {/* Course Builder Project */}
 <div className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300 mt-10">
@@ -247,6 +248,58 @@ const Projects = () => {
     </a>
   </div>
 </div>
+
+<div className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300 mt-10">
+
+  <img
+    src="/resume-builder.png"
+    alt="Course Builder"
+    className="w-full h-[350px] object-cover"
+  />
+
+  <div className="p-8">
+    <h3 className="text-3xl font-bold text-cyan-400 mb-4">
+      Resume-Builder
+    </h3>
+
+    <p className="text-gray-300 leading-7 mb-6">
+    A React-based resume builder that gives users complete control over crafting their resume, with a live preview updating instantly as they type. Supports fully customizable sections for personal information, professional summary, experience, education, projects, skills, certifications, languages, and extra-curricular activities — each toggleable on or off to tailor the resume to any job application. Built with Zustand for centralized, predictable state management across dozens of dynamic form fields, and integrated one-click PDF export using html2pdf.js for instant, print-ready downloads directly from the browser.
+    </p>
+
+    <div className="flex flex-wrap gap-3 mb-6">
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        React.js
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+          html2pdf.js
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        JavaScript
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+         Zustand
+      </span>
+
+      <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full">
+        Responsive Design
+      </span>
+    </div>
+
+    <a
+      href="https://resumebuilder-ten-lime.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold transition"
+    >
+      View Project
+    </a>
+  </div>
+</div>
+
+
         <div className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300">
 
           {/* Project Image */}
